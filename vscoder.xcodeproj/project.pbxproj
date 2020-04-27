@@ -15,6 +15,8 @@
 		ED9D904D24560A8C003A0554 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED9D904B24560A8C003A0554 /* LaunchScreen.storyboard */; };
 		ED9D905824560A8C003A0554 /* vscoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D905724560A8C003A0554 /* vscoderTests.swift */; };
 		ED9D906324560A8C003A0554 /* vscoderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D906224560A8C003A0554 /* vscoderUITests.swift */; };
+		ED9D907124561233003A0554 /* URLView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D907024561233003A0554 /* URLView.swift */; };
+		ED9D907524561D62003A0554 /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9D907424561D62003A0554 /* UserSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		ED9D905E24560A8C003A0554 /* vscoderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vscoderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9D906224560A8C003A0554 /* vscoderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vscoderUITests.swift; sourceTree = "<group>"; };
 		ED9D906424560A8C003A0554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9D907024561233003A0554 /* URLView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLView.swift; sourceTree = "<group>"; };
+		ED9D907424561D62003A0554 /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				ED9D904024560A8A003A0554 /* AppDelegate.swift */,
 				ED9D904224560A8A003A0554 /* SceneDelegate.swift */,
 				ED9D904424560A8A003A0554 /* ContentView.swift */,
+				ED9D907024561233003A0554 /* URLView.swift */,
 				ED9D904624560A8C003A0554 /* Assets.xcassets */,
 				ED9D904B24560A8C003A0554 /* LaunchScreen.storyboard */,
 				ED9D904E24560A8C003A0554 /* Info.plist */,
 				ED9D904824560A8C003A0554 /* Preview Content */,
+				ED9D907424561D62003A0554 /* UserSettings.swift */,
 			);
 			path = vscoder;
 			sourceTree = "<group>";
@@ -267,8 +273,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9D907524561D62003A0554 /* UserSettings.swift in Sources */,
 				ED9D904124560A8A003A0554 /* AppDelegate.swift in Sources */,
 				ED9D904324560A8A003A0554 /* SceneDelegate.swift in Sources */,
+				ED9D907124561233003A0554 /* URLView.swift in Sources */,
 				ED9D904524560A8A003A0554 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +444,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"vscoder/Preview Content\"";
+				DEVELOPMENT_TEAM = YR2B55YA56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = vscoder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -455,6 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"vscoder/Preview Content\"";
+				DEVELOPMENT_TEAM = YR2B55YA56;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = vscoder/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
